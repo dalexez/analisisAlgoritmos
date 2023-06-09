@@ -58,8 +58,7 @@ int cantidad;
     char nombreArchivo[100];
 
     printf("Ingrese el nombre del archivo a leer: ");
-    scanf("%s.txt", nombreArchivo);
-    strcat(nombreArchivo, ".txt");
+    scanf("%s", nombreArchivo);
 
     int* numeros = leerArchivoNumeros(nombreArchivo, &cantidad);
 
